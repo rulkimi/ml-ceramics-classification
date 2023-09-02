@@ -32,10 +32,11 @@ This project focuses on the classification of ancient ceramic samples using mach
 
 ## 6. Classification Predictions
 ![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/predictions-output.png)
+
 The Random Forest, Decision Tree, and Naive Bayes algorithms showed high accuracy with 6, 6, and 5 correct predictions out of 7 samples, respectively. This study demonstrates the effectiveness of using FTIR and density data for accurately classifying ceramic materials, suggesting its potential in identifying different ceramic types.
 
-
 ![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/performance.png)
+
 Among the six models evaluated, NB, LR, and RF consistently demonstrated the highest F1 scores and AUCROC values, indicating their strong performance in precision and recall. Consequently, the ensemble learning approach leverages these three models to collectively enhance prediction accuracy.
 
 ## 7. Results
