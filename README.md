@@ -34,8 +34,8 @@ This project focuses on the classification of ancient ceramic samples using mach
 The Random Forest, Decision Tree, and Naive Bayes algorithms showed high accuracy with 6, 6, and 5 correct predictions out of 7 samples, respectively. This study demonstrates the effectiveness of using FTIR and density data for accurately classifying ceramic materials, suggesting its potential in identifying different ceramic types.
 ![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/predictions-output.png)
 
-However, despite the overall strong performance of the ensemble model, it is important to note that it still made an incorrect prediction for the third sample. This misclassification could potentially be attributed to the inherent complexity or ambiguity present in the data, which can occasionally lead to misclassifications even when the model performs well. It highlights the need for further data refinement and model fine-tuning to address such cases.
-![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/ml-result.png)
+Among the six models evaluated, NB, LR, and RF consistently demonstrated the highest F1 scores and AUCROC values, indicating their strong performance in precision and recall. Consequently, the ensemble learning approach leverages these three models to collectively enhance prediction accuracy.
+![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/performance.png)
 
 ## 7. Results
 
@@ -44,6 +44,9 @@ The ensemble learning approach, combining the predictions of top-performing mode
 ![image](https://github.com/rulkimi/ml-ceramics-classification/assets/116322521/b312130b-603e-4746-a8eb-085023e3bd31)
 
 By leveraging the strengths of NB, LR, and RF through ensemble learning, this project demonstrates the effectiveness of ensemble methods in enhancing classification tasks, not only in ceramic material classification but across various domains.
+
+However, despite the overall strong performance of the ensemble model, it is important to note that it still made an incorrect prediction for the third sample. This misclassification could potentially be attributed to the inherent complexity or ambiguity present in the data, which can occasionally lead to misclassifications even when the model performs well. It highlights the need for further data refinement and model fine-tuning to address such cases.
+![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/ml-result.png)
 
 ## Code
 
