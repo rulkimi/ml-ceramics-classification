@@ -52,7 +52,7 @@ However, despite the overall strong performance of the ensemble model, it is imp
 
 ## Code
 
-The project's code, including data preprocessing, model building, and evaluation, is available in the [Code](https://github.com/rulkimi/ml-ceramics-classification/python-code.pdf) section of this repository.
+The project's code, including data preprocessing, model building, and evaluation, is available in the [Code](https://github.com/rulkimi/ml-ceramics-classification/blob/main/python-code.pdf) section of this repository.
 
 
 ## Acknowledgments
