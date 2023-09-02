@@ -48,11 +48,11 @@ The ensemble learning approach, combining the predictions of top-performing mode
 By leveraging the strengths of NB, LR, and RF through ensemble learning, this project demonstrates the effectiveness of ensemble methods in enhancing classification tasks, not only in ceramic material classification but across various domains.
 
 However, despite the overall strong performance of the ensemble model, it is important to note that it still made an incorrect prediction for the third sample. This misclassification could potentially be attributed to the inherent complexity or ambiguity present in the data, which can occasionally lead to misclassifications even when the model performs well. It highlights the need for further data refinement and model fine-tuning to address such cases.
-![image](https://github.com/rulkimi/ml-ceramics-classification/blob/main/ml-result.png)
+![image](https://github.com/rulkimi/ml-ceramics-classification/raw/main/ml-result.png)
 
 ## Code
 
-The project's code, including data preprocessing, model building, and evaluation, is available in the [Code](https://github.com/rulkimi/ml-ceramics-classification/raw/main/python-code.pdf) section of this repository.
+The project's code, including data preprocessing, model building, and evaluation, is available in the [Code](https://github.com/rulkimi/ml-ceramics-classification/blob/main/python-code.pdf) section of this repository.
 
 
 ## Acknowledgments
